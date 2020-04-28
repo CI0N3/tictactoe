@@ -1,2 +1,1 @@
-Download python module pygame
-  pip install pygame
+Download python module pygame in terminal: pip install pygame
