@@ -16,9 +16,15 @@ def initial_state():
     Returns starting state of the board.
     """
 
+<<<<<<< HEAD
     return [[X, X, EMPTY],
             [O, O, EMPTY],
             [X, EMPTY, EMPTY]]
+=======
+    return [[EMPTY, EMPTY, EMPTY],
+            [EMPTY, EMPTY, EMPTY],
+            [EMPTY, EMPTY, EMPTY]]
+>>>>>>> 22b2575570c94b4bf18c501e33770afc63499832
 
 
 def player(board):
@@ -185,6 +191,10 @@ def utility(board):
 
 def minimax(board):
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 22b2575570c94b4bf18c501e33770afc63499832
     def maxvalue(board):
         if terminal(board):
             return utility(board)
@@ -193,6 +203,10 @@ def minimax(board):
             value = max(value, minvalue(result(board, action)))
         return value
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 22b2575570c94b4bf18c501e33770afc63499832
     def minvalue(board):
         if terminal(board):
             return utility(board)
@@ -201,6 +215,10 @@ def minimax(board):
             value = min(value, maxvalue(result(board, action)))
         return value
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 22b2575570c94b4bf18c501e33770afc63499832
     if terminal(board):
         return None
 
@@ -214,8 +232,16 @@ def minimax(board):
             if maxvalue(result(board, action)) == minvalue(board):
                 return action
 
+<<<<<<< HEAD
 """
 Returns the optimal action for the current player on the board.
 """
 
 raise NotImplementedError
+=======
+    """
+    Returns the optimal action for the current player on the board.
+    """
+
+    raise NotImplementedError
+>>>>>>> 22b2575570c94b4bf18c501e33770afc63499832

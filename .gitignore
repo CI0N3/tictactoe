@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 .idea
 __pycache__
 Include
 Lib
 Scripts
 pyvenv.cfg
+=======
+.idea/
+__pycache__
+>>>>>>> 22b2575570c94b4bf18c501e33770afc63499832
